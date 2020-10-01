@@ -1,0 +1,46 @@
+.messageBlock {
+    max-width:60%;
+    min-width:40%;
+    background:lightblue;
+    border: 1px solid gray;
+    padding:10px;
+    display:flex;
+    align-items: flex-end;
+}
+.avatar {
+    width:60px;
+    border-radius: 50%;
+    margin-right:10px;
+}
+.innerMessageBlock {
+    width:50%;
+    background:darkslategrey;
+    border-radius: 5px;
+    padding:10px;
+    position: relative;
+}
+.innerMessageBlock:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 15px solid transparent;
+    border-right: 15px solid darkslategrey;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid darkslategrey;
+    left: -20px;
+    bottom: 0px;
+}
+.name {
+    color:darkcyan;
+    vertical-align: center;
+}
+.message {
+    color:white;
+}
+.time {
+    display:inline-block;
+    color:lightblue;
+    float: right;
+
+}
