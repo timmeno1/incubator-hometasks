@@ -1,3 +1,27 @@
 .someClass {
 
 }
+
+.affairs {
+    background: lightgoldenrodyellow;
+    padding:10px;
+}
+.button {
+    color:white;
+    margin-left:10px;
+    background-color:darkslategray;
+    padding:2px;
+    border:2px solid darkslategray;
+    border-radius: 5px;
+    width: 22px;
+    height: 22px;
+    line-height: 16px;
+}
+.item {
+    padding:5px;
+    border-bottom:2px solid darkcyan;
+}
+
+.item:hover {
+    background-color: lightblue;
+}
