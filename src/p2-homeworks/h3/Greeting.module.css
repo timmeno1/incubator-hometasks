@@ -3,5 +3,41 @@
 }
 
 .error {
-    border: 1px solid red;
+    border: 2px solid red;
+}
+
+.container {
+    background-color: antiquewhite;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.errorMsg {
+    display:inline-block;
+    width:fit-content;
+    padding:10px;
+    background-color: #fd5454;
+    color:white;
+    border-radius:5px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-bottom:10px;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+input {
+    margin:10px;
+    padding:5px;
+    border-radius:5px;
+}
+
+.totalUsrs {
+    background-color: white;
+    color:darkslateblue;
+    border-radius: 5px;
+    padding:5px;
+    border: 1px solid black;
 }
